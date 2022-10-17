@@ -1,4 +1,5 @@
 import Info from "./Info/Info";
+import Button from "./Button/Button";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       </div>
       <section className="controls">
         <Info></Info>
+        <Button></Button>
       </section>
     </>
   );
